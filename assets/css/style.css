@@ -1,0 +1,77 @@
+body, h1, p, label {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  background: url('/assets/img/imagem-fundo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #4b5c49;
+  color: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #f1c21a;
+  box-shadow: 0 0 5px #f1c21a;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #f1c21a;
+  border: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e0a800;
+}
+
+.logo {
+  margin-top: 20px;
+  width: 80%;
+  max-width: 200px;
+}
+
+.mensagem {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.mensagem.erro {
+  color: #ff4d4d;
+}
+
+.mensagem.sucesso {
+  color: #90ee90;
+}
